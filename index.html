@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodeAtNow - Voyage Slider | GSAP</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
+
+</head>
+<header>
+  <div class="logo">
+    <img src="./image/Dapango Logo sin fondo blanco_2.png" alt="Logo_Dapango">
+  </div>
+  <div class="title">
+    <h1>DAAS</h1>
+  </div>
+  
+</header>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app">
+
+	<div class="cardList">
+		<button class="cardList__btn btn btn--left">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-left"></use>
+				</svg>
+			</div>
+		</button>
+
+		<div class="cards__wrapper">
+			<div class="card current--card">
+				<div class="card__image">
+					<img src="./image/Tablet_M2.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="card thoo--card">
+				<div class="card__image">
+					<img src="./image/Dell_Desktop.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="card three--card">
+				<div class="card__image">
+					<img src="./image/Laptop_HP2.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="card four--card">
+				<div class="card__image">
+					<img src="./image/Laptop_HP2.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="card five--card">
+				<div class="card__image">
+					<img src="./image/Laptop_HP2.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="card six--card">
+				<div class="card__image">
+					<img src="./image/Laptop_HP2.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="card seven--card">
+				<div class="card__image">
+					<img src="./image/Laptop_HP2.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="card eight--card">
+				<div class="card__image">
+					<img src="./image/Laptop_HP2.jpg" alt="" />
+				</div>
+			</div>
+			
+		</div>
+
+
+		<button class="cardList__btn btn btn--right">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-right"></use>
+				</svg>
+			</div>
+		</button>
+	</div>
+
+	<div class="infoList">
+		<div class="info__wrapper">
+			<div class="info current--info">
+				<h1 class="text name">Highlands</h1>
+				<h4 class="text location">Scotland</h4>
+				<p class="text description">The mountains are calling</p>
+			</div>
+
+			<div class="info thoo--info">
+				<h1 class="text name">Machu Pichu</h1>
+				<h4 class="text location">Peru</h4>
+				<p class="text description">Adventure is never far away</p>
+			</div>
+
+			<div class="info three--info">
+				<h1 class="text name">Chamonix</h1>
+				<h4 class="text location">France</h4>
+				<p class="text description">Let your dreams come true</p>
+			</div>
+			
+			<div class="info four--info">
+				<h1 class="text name">Chamonix</h1>
+				<h4 class="text location">France</h4>
+				<p class="text description">Let your dreams come true</p>
+			</div>
+			
+			<div class="info five--info">
+				<h1 class="text name">Chamonix</h1>
+				<h4 class="text location">France</h4>
+				<p class="text description">Let your dreams come true</p>
+			</div>
+
+			<div class="info six--info">
+				<h1 class="text name">Chamonix</h1>
+				<h4 class="text location">France</h4>
+				<p class="text description">Let your dreams come true</p>
+			</div>
+
+			<div class="info seven--info">
+				<h1 class="text name">Chamonix</h1>
+				<h4 class="text location">France</h4>
+				<p class="text description">Let your dreams come true</p>
+			</div>
+			
+			<div class="info eight--info">
+				<h1 class="text name">Chamonix</h1>
+				<h4 class="text location">France</h4>
+				<p class="text description">Let your dreams come true</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="app__bg">
+		<div class="app__bg__image current--image">
+			<img src="./image/Dell_2.jpg" alt="" />
+		</div>
+		<div class="app__bg__image thoo--image">
+			<img src="./image/Dell_Desktop.jpg" alt="" />
+		</div>
+		<div class="app__bg__image three--image">
+			<img src="./image/Laptop_HP.jpg" alt="" />
+		</div>
+		<div class="app__bg__image four--image">
+			<img src="./image/Desktop_HP.jpg" alt="" />
+		</div>
+		<div class="app__bg__image five--image">
+			<img src="./image/Surface.jpg" alt="" />
+		</div>
+		<div class="app__bg__image six--image">
+			<img src="./image/Tablet_M.jpg" alt="" />
+		</div>
+		<div class="app__bg__image seven--image">
+			<img src="./image/Lenovo_E15.jpg" alt="" />
+		</div>
+		<div class="app__bg__image eight--image">
+			<img src="./image/Potatil_Dell.jpg" alt="" />
+		</div>
+	</div>
+</div>
+
+<div class="loading__wrapper">
+	<div class="loader--text">Loading...</div>
+	<div class="loader">
+		<span></span>
+	</div>
+</div>
+
+
+<svg class="icons" style="display: none;">
+	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='328 112 184 256 328 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='184 112 328 256 184 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+</svg>
+<!-- partial -->
+  <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
